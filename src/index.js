@@ -14,3 +14,10 @@ console.log('sumRes', sumRes)
 //         console.log('sumRes in hot', sumRes)
 //     })
 // }
+
+// 引入动态数据，懒加载
+// setTimeout(() => {
+//   import('./dynamic-data').then((res) => {
+//     console.log(res.default.message)
+//   })
+// }, 2000)
